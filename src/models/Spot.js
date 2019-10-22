@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const SpotSchema =new mongoose.Schema({
+const SpotSchema = new mongoose.Schema({
     thumbnail: String,
     company: String,
     price: Number,
@@ -11,4 +11,4 @@ const SpotSchema =new mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model('User', UserSchema);
+module.exports = mongoose.model('Spot', SpotSchema);
